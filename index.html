@@ -1,0 +1,839 @@
+<html lang="en" data-theme="dark"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetable Adventures Blog</title>
+    <!-- CSS styles removed for clarity -->
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="45" fill="#243142" stroke="#c41e3a" stroke-width="2"></circle>
+                    <path d="M50 20C35 20 25 35 25 50C25 65 35 80 50 80C65 80 75 65 75 50C75 35 65 20 50 20Z" fill="#c41e3a" opacity="0.8"></path>
+                    <path d="M50 30C40 30 35 40 35 50C35 60 40 70 50 70C60 70 65 60 65 50C65 40 60 30 50 30Z" fill="#243142"></path>
+                    <path d="M50 35C45 35 40 40 40 50C40 60 45 65 50 65C55 65 60 60 60 50C60 40 55 35 50 35Z" fill="#c41e3a"></path>
+                    <path d="M50 10L50 20M50 80L50 90M10 50L20 50M80 50L90 50" stroke="#c41e3a" stroke-width="2"></path>
+                </svg>
+                Vegetable <span>Adventures</span>
+            </a>
+            <button class="mobile-menu-btn">☰</button>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Our history</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <svg class="hero-svg" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+            <!-- Sky background -->
+            <defs>
+                <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stop-color="#0a1520"></stop>
+                    <stop offset="100%" stop-color="#1a2634"></stop>
+                </linearGradient>
+            </defs>
+            <rect width="1200" height="600" fill="url(#skyGradient)"></rect>
+            
+            <!-- Stars -->
+            <g>
+                <circle cx="100" cy="50" r="1" fill="white" opacity="0.8"></circle>
+                <circle cx="200" cy="80" r="1.5" fill="white" opacity="0.7"></circle>
+                <circle cx="300" cy="40" r="1" fill="white" opacity="0.9"></circle>
+                <circle cx="400" cy="70" r="1.2" fill="white" opacity="0.8"></circle>
+                <circle cx="500" cy="30" r="1" fill="white" opacity="0.7"></circle>
+                <circle cx="600" cy="60" r="1.3" fill="white" opacity="0.9"></circle>
+                <circle cx="700" cy="45" r="1" fill="white" opacity="0.8"></circle>
+                <circle cx="800" cy="75" r="1.4" fill="white" opacity="0.7"></circle>
+                <circle cx="900" cy="35" r="1" fill="white" opacity="0.9"></circle>
+                <circle cx="1000" cy="65" r="1.2" fill="white" opacity="0.8"></circle>
+                <circle cx="1100" cy="25" r="1" fill="white" opacity="0.7"></circle>
+                <circle cx="150" cy="100" r="1.3" fill="white" opacity="0.9"></circle>
+                <circle cx="250" cy="120" r="1" fill="white" opacity="0.8"></circle>
+                <circle cx="350" cy="90" r="1.5" fill="white" opacity="0.7"></circle>
+                <circle cx="450" cy="110" r="1" fill="white" opacity="0.9"></circle>
+                <circle cx="550" cy="130" r="1.2" fill="white" opacity="0.8"></circle>
+                <circle cx="650" cy="100" r="1" fill="white" opacity="0.7"></circle>
+                <circle cx="750" cy="120" r="1.3" fill="white" opacity="0.9"></circle>
+                <circle cx="850" cy="90" r="1" fill="white" opacity="0.8"></circle>
+                <circle cx="950" cy="110" r="1.4" fill="white" opacity="0.7"></circle>
+                <circle cx="1050" cy="130" r="1" fill="white" opacity="0.9"></circle>
+                <circle cx="1150" cy="100" r="1.2" fill="white" opacity="0.8"></circle>
+            </g>
+            
+            <!-- Mountains -->
+            <path d="M0,600 L0,400 L200,500 L400,350 L600,450 L800,380 L1000,480 L1200,400 L1200,600 Z" fill="#0f1924"></path>
+            
+            <!-- Hot Air Balloons -->
+            <!-- Balloon 1 (Main) -->
+            <g transform="translate(300, 200) scale(0.8)">
+                <ellipse cx="0" cy="-80" rx="60" ry="80" fill="#c41e3a"></ellipse>
+                <path d="M-60,-80 Q-60,-160 0,-160 Q60,-160 60,-80" fill="#c41e3a" stroke="#ffffff" stroke-width="2"></path>
+                <path d="M-30,-80 L-30,0 M30,-80 L30,0" stroke="#ffffff" stroke-width="1" opacity="0.5"></path>
+                <path d="M-40,-120 Q0,-140 40,-120" stroke="#ffffff" stroke-width="1" opacity="0.5"></path>
+                <rect x="-20" y="0" width="40" height="30" fill="#243142" stroke="#ffffff" stroke-width="1"></rect>
+                <path d="M-20,0 C-25,-20 25,-20 20,0" stroke="#ffffff" stroke-width="1" fill="none"></path>
+            </g>
+            
+            <!-- Balloon 2 -->
+            <g transform="translate(600, 150) scale(0.6)">
+                <ellipse cx="0" cy="-80" rx="60" ry="80" fill="#8a2be2"></ellipse>
+                <path d="M-60,-80 Q-60,-160 0,-160 Q60,-160 60,-80" fill="#8a2be2" stroke="#ffffff" stroke-width="2"></path>
+                <path d="M-30,-80 L-30,0 M30,-80 L30,0" stroke="#ffffff" stroke-width="1" opacity="0.5"></path>
+                <path d="M-40,-120 Q0,-140 40,-120" stroke="#ffffff" stroke-width="1" opacity="0.5"></path>
+                <rect x="-20" y="0" width="40" height="30" fill="#243142" stroke="#ffffff" stroke-width="1"></rect>
+                <path d="M-20,0 C-25,-20 25,-20 20,0" stroke="#ffffff" stroke-width="1" fill="none"></path>
+            </g>
+            
+            <!-- Balloon 3 -->
+            <g transform="translate(900, 180) scale(0.5)">
+                <ellipse cx="0" cy="-80" rx="60" ry="80" fill="#4169e1"></ellipse>
+                <path d="M-60,-80 Q-60,-160 0,-160 Q60,-160 60,-80" fill="#4169e1" stroke="#ffffff" stroke-width="2"></path>
+                <path d="M-30,-80 L-30,0 M30,-80 L30,0" stroke="#ffffff" stroke-width="1" opacity="0.5"></path>
+                <path d="M-40,-120 Q0,-140 40,-120" stroke="#ffffff" stroke-width="1" opacity="0.5"></path>
+                <rect x="-20" y="0" width="40" height="30" fill="#243142" stroke="#ffffff" stroke-width="1"></rect>
+                <path d="M-20,0 C-25,-20 25,-20 20,0" stroke="#ffffff" stroke-width="1" fill="none"></path>
+            </g>
+            
+            <!-- Balloon 4 -->
+            <g transform="translate(100, 220) scale(0.4)">
+                <ellipse cx="0" cy="-80" rx="60" ry="80" fill="#ffa500"></ellipse>
+                <path d="M-60,-80 Q-60,-160 0,-160 Q60,-160 60,-80" fill="#ffa500" stroke="#ffffff" stroke-width="2"></path>
+                <path d="M-30,-80 L-30,0 M30,-80 L30,0" stroke="#ffffff" stroke-width="1" opacity="0.5"></path>
+                <path d="M-40,-120 Q0,-140 40,-120" stroke="#ffffff" stroke-width="1" opacity="0.5"></path>
+                <rect x="-20" y="0" width="40" height="30" fill="#243142" stroke="#ffffff" stroke-width="1"></rect>
+                <path d="M-20,0 C-25,-20 25,-20 20,0" stroke="#ffffff" stroke-width="1" fill="none"></path>
+            </g>
+            
+            <!-- Balloon 5 -->
+            <g transform="translate(1100, 250) scale(0.3)">
+                <ellipse cx="0" cy="-80" rx="60" ry="80" fill="#32cd32"></ellipse>
+                <path d="M-60,-80 Q-60,-160 0,-160 Q60,-160 60,-80" fill="#32cd32" stroke="#ffffff" stroke-width="2"></path>
+                <path d="M-30,-80 L-30,0 M30,-80 L30,0" stroke="#ffffff" stroke-width="1" opacity="0.5"></path>
+                <path d="M-40,-120 Q0,-140 40,-120" stroke="#ffffff" stroke-width="1" opacity="0.5"></path>
+                <rect x="-20" y="0" width="40" height="30" fill="#243142" stroke="#ffffff" stroke-width="1"></rect>
+                <path d="M-20,0 C-25,-20 25,-20 20,0" stroke="#ffffff" stroke-width="1" fill="none"></path>
+            </g>
+        </svg>
+        <div class="hero-content">
+            <h1 class="hero-title">Vegetable Adventures</h1>
+            <p class="hero-subtitle">Exploring the world of vegetables from the skies above</p>
+            <a href="#" class="hero-btn">Start Exploring</a>
+        </div>
+    </section>
+    
+    <!-- Main Content -->
+    <div class="container">
+        <div class="main-content">
+            <!-- Blog Post -->
+            <article class="blog-post">
+                <div class="post-image-container">
+                    <svg class="post-svg" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Sky background -->
+                        <defs>
+                            <linearGradient id="postSkyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" stop-color="#1a2634"></stop>
+                                <stop offset="100%" stop-color="#243142"></stop>
+                            </linearGradient>
+                        </defs>
+                        <rect width="800" height="400" fill="url(#postSkyGradient)"></rect>
+                        
+                        <!-- Sun/Moon -->
+                        <circle cx="700" cy="80" r="40" fill="#c41e3a" opacity="0.8"></circle>
+                        <circle cx="700" cy="80" r="50" fill="none" stroke="#c41e3a" stroke-width="2" opacity="0.3"></circle>
+                        
+                        <!-- Mountains -->
+                        <path d="M0,400 L0,250 L100,300 L200,200 L300,280 L400,180 L500,250 L600,200 L700,280 L800,220 L800,400 Z" fill="#0f1924"></path>
+                        
+                        <!-- Hot Air Balloons -->
+                        <!-- Main Balloon -->
+                        <g transform="translate(200, 150)">
+                            <ellipse cx="0" cy="-60" rx="50" ry="70" fill="#c41e3a"></ellipse>
+                            <path d="M-50,-60 Q-50,-130 0,-130 Q50,-130 50,-60" fill="#c41e3a" stroke="#ffffff" stroke-width="2"></path>
+                            <path d="M-25,-60 L-25,0 M25,-60 L25,0" stroke="#ffffff" stroke-width="1" opacity="0.5"></path>
+                            <path d="M-35,-100 Q0,-120 35,-100" stroke="#ffffff" stroke-width="1" opacity="0.5"></path>
+                            <rect x="-15" y="0" width="30" height="25" fill="#243142" stroke="#ffffff" stroke-width="1"></rect>
+                            <path d="M-15,0 C-20,-15 20,-15 15,0" stroke="#ffffff" stroke-width="1" fill="none"></path>
+                        </g>
+                        
+                        <!-- Balloon 2 -->
+                        <g transform="translate(400, 100) scale(0.7)">
+                            <ellipse cx="0" cy="-60" rx="50" ry="70" fill="#8a2be2"></ellipse>
+                            <path d="M-50,-60 Q-50,-130 0,-130 Q50,-130 50,-60" fill="#8a2be2" stroke="#ffffff" stroke-width="2"></path>
+                            <path d="M-25,-60 L-25,0 M25,-60 L25,0" stroke="#ffffff" stroke-width="1" opacity="0.5"></path>
+                            <path d="M-35,-100 Q0,-120 35,-100" stroke="#ffffff" stroke-width="1" opacity="0.5"></path>
+                            <rect x="-15" y="0" width="30" height="25" fill="#243142" stroke="#ffffff" stroke-width="1"></rect>
+                            <path d="M-15,0 C-20,-15 20,-15 15,0" stroke="#ffffff" stroke-width="1" fill="none"></path>
+                        </g>
+                        
+                        <!-- Balloon 3 -->
+                        <g transform="translate(600, 180) scale(0.5)">
+                            <ellipse cx="0" cy="-60" rx="50" ry="70" fill="#4169e1"></ellipse>
+                            <path d="M-50,-60 Q-50,-130 0,-130 Q50,-130 50,-60" fill="#4169e1" stroke="#ffffff" stroke-width="2"></path>
+                            <path d="M-25,-60 L-25,0 M25,-60 L25,0" stroke="#ffffff" stroke-width="1" opacity="0.5"></path>
+                            <path d="M-35,-100 Q0,-120 35,-100" stroke="#ffffff" stroke-width="1" opacity="0.5"></path>
+                            <rect x="-15" y="0" width="30" height="25" fill="#243142" stroke="#ffffff" stroke-width="1"></rect>
+                            <path d="M-15,0 C-20,-15 20,-15 15,0" stroke="#ffffff" stroke-width="1" fill="none"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="date">June 15, 2023</span>
+                        <span class="author">
+                            <div class="author-avatar">JG</div>
+                            Jane Gardener
+                        </span>
+                    </div>
+                    <h1 class="post-title">An Exciting Blog Post</h1>
+                    <div class="post-excerpt">
+                        <p>Vegetables are parts of plants that are consumed by humans or other animals as food. The original meaning is still commonly used and is applied to plants collectively to refer to all edible plant matter, including the flowers, fruits, stems, leaves, roots, and seeds.</p>
+                        
+                        <div class="image-gallery">
+                            <div class="gallery-image-container">
+                                <svg class="gallery-svg" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- Background -->
+                                    <rect width="400" height="300" fill="#1a2634"></rect>
+                                    
+                                    <!-- Sky -->
+                                    <rect width="400" height="200" fill="#243142"></rect>
+                                    
+                                    <!-- Red Hot Air Balloon -->
+                                    <g transform="translate(200, 100)">
+                                        <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#c41e3a"></ellipse>
+                                        <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#c41e3a" stroke="#ffffff" stroke-width="1"></path>
+                                        <path d="M-17,-40 L-17,0 M17,-40 L17,0" stroke="#ffffff" stroke-width="0.5" opacity="0.5"></path>
+                                        <path d="M-25,-70 Q0,-85 25,-70" stroke="#ffffff" stroke-width="0.5" opacity="0.5"></path>
+                                        <rect x="-10" y="0" width="20" height="15" fill="#243142" stroke="#ffffff" stroke-width="0.5"></rect>
+                                        <path d="M-10,0 C-13,-10 13,-10 10,0" stroke="#ffffff" stroke-width="0.5" fill="none"></path>
+                                    </g>
+                                    
+                                    <!-- Mountains -->
+                                    <path d="M0,300 L0,200 L100,150 L200,220 L300,180 L400,210 L400,300 Z" fill="#0f1924"></path>
+                                </svg>
+                            </div>
+                            <div class="gallery-image-container">
+                                <svg class="gallery-svg" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- Background -->
+                                    <rect width="400" height="300" fill="#1a2634"></rect>
+                                    
+                                    <!-- Sky -->
+                                    <rect width="400" height="200" fill="#243142"></rect>
+                                    
+                                    <!-- Multiple Hot Air Balloons -->
+                                    <g transform="translate(100, 80) scale(0.6)">
+                                        <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#c41e3a"></ellipse>
+                                        <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#c41e3a" stroke="#ffffff" stroke-width="1"></path>
+                                        <path d="M-17,-40 L-17,0 M17,-40 L17,0" stroke="#ffffff" stroke-width="0.5" opacity="0.5"></path>
+                                        <rect x="-10" y="0" width="20" height="15" fill="#243142" stroke="#ffffff" stroke-width="0.5"></rect>
+                                    </g>
+                                    
+                                    <g transform="translate(200, 100) scale(0.7)">
+                                        <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#8a2be2"></ellipse>
+                                        <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#8a2be2" stroke="#ffffff" stroke-width="1"></path>
+                                        <path d="M-17,-40 L-17,0 M17,-40 L17,0" stroke="#ffffff" stroke-width="0.5" opacity="0.5"></path>
+                                        <rect x="-10" y="0" width="20" height="15" fill="#243142" stroke="#ffffff" stroke-width="0.5"></rect>
+                                    </g>
+                                    
+                                    <g transform="translate(300, 70) scale(0.5)">
+                                        <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#4169e1"></ellipse>
+                                        <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#4169e1" stroke="#ffffff" stroke-width="1"></path>
+                                        <path d="M-17,-40 L-17,0 M17,-40 L17,0" stroke="#ffffff" stroke-width="0.5" opacity="0.5"></path>
+                                        <rect x="-10" y="0" width="20" height="15" fill="#243142" stroke="#ffffff" stroke-width="0.5"></rect>
+                                    </g>
+                                    
+                                    <!-- Mountains -->
+                                    <path d="M0,300 L0,200 L100,230 L200,180 L300,220 L400,170 L400,300 Z" fill="#0f1924"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        
+                        <p>The alternate definition of the term is applied somewhat arbitrarily, often by culinary and cultural tradition. It may exclude foods derived from some plants that are fruits, flowers, nuts, and cereal grains, but include others such as kohlrabi, amaranth, and gumbo.</p>
+                        
+                        <p>Originally, vegetables were collected from the wild by hunter-gatherers and entered cultivation in several parts of the world, probably during the period 10,000 BC to 7,000 BC, when a new agricultural way of life developed.</p>
+                        
+                        <div class="image-gallery">
+                            <div class="gallery-image-container">
+                                <svg class="gallery-svg" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- Background -->
+                                    <rect width="400" height="300" fill="#1a2634"></rect>
+                                    
+                                    <!-- Sky with sunset -->
+                                    <defs>
+                                        <linearGradient id="sunsetGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                            <stop offset="0%" stop-color="#243142"></stop>
+                                            <stop offset="100%" stop-color="#c41e3a" stop-opacity="0.3"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                    <rect width="400" height="200" fill="url(#sunsetGradient)"></rect>
+                                    
+                                    <!-- Sun -->
+                                    <circle cx="300" cy="50" r="30" fill="#c41e3a" opacity="0.8"></circle>
+                                    
+                                    <!-- Hot Air Balloon silhouette -->
+                                    <g transform="translate(150, 100)">
+                                        <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#000000" opacity="0.7"></ellipse>
+                                        <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#000000" opacity="0.7"></path>
+                                        <path d="M-17,-40 L-17,0 M17,-40 L17,0" stroke="#000000" stroke-width="1" opacity="0.7"></path>
+                                        <rect x="-10" y="0" width="20" height="15" fill="#000000" opacity="0.7"></rect>
+                                    </g>
+                                    
+                                    <!-- Mountains -->
+                                    <path d="M0,300 L0,200 L100,150 L200,220 L300,180 L400,210 L400,300 Z" fill="#0f1924"></path>
+                                </svg>
+                            </div>
+                            <div class="gallery-image-container">
+                                <svg class="gallery-svg" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                                    <!-- Background -->
+                                    <rect width="400" height="300" fill="#1a2634"></rect>
+                                    
+                                    <!-- Sky -->
+                                    <rect width="400" height="200" fill="#243142"></rect>
+                                    
+                                    <!-- Colorful Hot Air Balloon -->
+                                    <g transform="translate(200, 100)">
+                                        <!-- Balloon stripes -->
+                                        <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40 Z" fill="#243142"></path>
+                                        <path d="M-28,-40 Q-28,-83 0,-83 Q28,-83 28,-40 Z" fill="#c41e3a"></path>
+                                        <path d="M-21,-40 Q-21,-76 0,-76 Q21,-76 21,-40 Z" fill="#8a2be2"></path>
+                                        <path d="M-14,-40 Q-14,-69 0,-69 Q14,-69 14,-40 Z" fill="#4169e1"></path>
+                                        <path d="M-7,-40 Q-7,-62 0,-62 Q7,-62 7,-40 Z" fill="#c41e3a"></path>
+                                        
+                                        <!-- Balloon outline -->
+                                        <ellipse cx="0" cy="-40" rx="35" ry="50" fill="none" stroke="#ffffff" stroke-width="1"></ellipse>
+                                        
+                                        <!-- Basket and ropes -->
+                                        <path d="M-17,-40 L-17,0 M17,-40 L17,0" stroke="#ffffff" stroke-width="0.5" opacity="0.8"></path>
+                                        <rect x="-10" y="0" width="20" height="15" fill="#243142" stroke="#ffffff" stroke-width="0.5"></rect>
+                                    </g>
+                                    
+                                    <!-- Mountains -->
+                                    <path d="M0,300 L0,200 L100,230 L200,180 L300,220 L400,170 L400,300 Z" fill="#0f1924"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        
+                        <p>At first, plants which grew locally would have been cultivated, but as time went on, trade brought exotic crops from elsewhere to add to domestic types. Nowadays, most vegetables are grown all over the world as climate permits, and crops may be cultivated in protected environments in less suitable locations.</p>
+                        
+                        <p>China is the largest producer of vegetables, and global trade in agricultural products allows consumers to purchase vegetables grown in faraway countries. The scale of production varies from subsistence farmers supplying the needs of their family for food, to agribusinesses with vast acreages of single-product crops.</p>
+                        
+                        <p>Vegetables can be eaten either raw or cooked and play an important role in human nutrition, being mostly low in fat and carbohydrates, but high in vitamins, minerals and dietary fiber. Many nutritionists encourage people to consume plenty of fruit and vegetables, five or more portions a day often being recommended.</p>
+                        
+                        <h2>Types of Vegetables</h2>
+                        
+                        <p>There are many different types of vegetables, including:</p>
+                        
+                        <ul>
+                            <li>Leafy greens: Spinach, kale, lettuce, cabbage</li>
+                            <li>Root vegetables: Carrots, potatoes, beets, radishes</li>
+                            <li>Cruciferous vegetables: Broccoli, cauliflower, Brussels sprouts</li>
+                            <li>Allium vegetables: Onions, garlic, leeks</li>
+                            <li>Nightshade vegetables: Tomatoes, eggplants, peppers</li>
+                            <li>Legumes: Beans, peas, lentils</li>
+                            <li>Squash: Zucchini, pumpkin, butternut squash</li>
+                        </ul>
+                        
+                        <p>Some vegetables that might be less familiar include kohlrabi, amaranth, gumbo, kale, jicama, and many others that are regional specialties or heirloom varieties.</p>
+                    </div>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </article>
+            
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <!-- Photography Widget -->
+                <div class="widget">
+                    <h3 class="widget-title">Photography</h3>
+                    <div class="photo-gallery">
+                        <div class="gallery-item">
+                            <svg class="gallery-item-svg" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Background -->
+                                <rect width="200" height="120" fill="#243142"></rect>
+                                
+                                <!-- Hot Air Balloon Festival -->
+                                <g transform="translate(50, 40) scale(0.4)">
+                                    <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#c41e3a"></ellipse>
+                                    <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#c41e3a" stroke="#ffffff" stroke-width="1"></path>
+                                    <rect x="-10" y="0" width="20" height="15" fill="#243142" stroke="#ffffff" stroke-width="0.5"></rect>
+                                    <path d="M-17,-40 L-17,0 M17,-40 L17,0" stroke="#ffffff" stroke-width="0.5" opacity="0.5"></path>
+                                </g>
+                                
+                                <g transform="translate(100, 30) scale(0.3)">
+                                    <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#8a2be2"></ellipse>
+                                    <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#8a2be2" stroke="#ffffff" stroke-width="1"></path>
+                                    <rect x="-10" y="0" width="20" height="15" fill="#243142" stroke="#ffffff" stroke-width="0.5"></rect>
+                                    <path d="M-17,-40 L-17,0 M17,-40 L17,0" stroke="#ffffff" stroke-width="0.5" opacity="0.5"></path>
+                                </g>
+                                
+                                <g transform="translate(150, 50) scale(0.35)">
+                                    <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#4169e1"></ellipse>
+                                    <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#4169e1" stroke="#ffffff" stroke-width="1"></path>
+                                    <rect x="-10" y="0" width="20" height="15" fill="#243142" stroke="#ffffff" stroke-width="0.5"></rect>
+                                    <path d="M-17,-40 L-17,0 M17,-40 L17,0" stroke="#ffffff" stroke-width="0.5" opacity="0.5"></path>
+                                </g>
+                                
+                                <!-- Mountains -->
+                                <path d="M0,120 L0,80 L50,60 L100,90 L150,70 L200,85 L200,120 Z" fill="#0f1924"></path>
+                            </svg>
+                        </div>
+                        <div class="gallery-item">
+                            <svg class="gallery-item-svg" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Sky -->
+                                <rect width="200" height="120" fill="#243142"></rect>
+                                
+                                <!-- Clouds -->
+                                <ellipse cx="40" cy="30" rx="20" ry="10" fill="#1a2634" opacity="0.5"></ellipse>
+                                <ellipse cx="160" cy="40" rx="25" ry="12" fill="#1a2634" opacity="0.5"></ellipse>
+                                
+                                <!-- Hot Air Balloon in Sky -->
+                                <g transform="translate(100, 60) scale(0.5)">
+                                    <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#c41e3a"></ellipse>
+                                    <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#c41e3a" stroke="#ffffff" stroke-width="1"></path>
+                                    <path d="M-17,-40 L-17,0 M17,-40 L17,0" stroke="#ffffff" stroke-width="0.5" opacity="0.5"></path>
+                                    <rect x="-10" y="0" width="20" height="15" fill="#243142" stroke="#ffffff" stroke-width="0.5"></rect>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="gallery-item">
+                            <svg class="gallery-item-svg" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Background -->
+                                <rect width="200" height="120" fill="#243142"></rect>
+                                
+                                <!-- Landscape -->
+                                <path d="M0,120 L0,70 L40,80 L80,60 L120,75 L160,55 L200,70 L200,120 Z" fill="#0f1924"></path>
+                                <path d="M0,120 L0,90 L50,85 L100,95 L150,90 L200,100 L200,120 Z" fill="#1a2634"></path>
+                                
+                                <!-- Hot Air Balloon over Landscape -->
+                                <g transform="translate(100, 40) scale(0.4)">
+                                    <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#c41e3a"></ellipse>
+                                    <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#c41e3a" stroke="#ffffff" stroke-width="1"></path>
+                                    <path d="M-17,-40 L-17,0 M17,-40 L17,0" stroke="#ffffff" stroke-width="0.5" opacity="0.5"></path>
+                                    <rect x="-10" y="0" width="20" height="15" fill="#243142" stroke="#ffffff" stroke-width="0.5"></rect>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="gallery-item">
+                            <svg class="gallery-item-svg" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Background with clouds -->
+                                <rect width="200" height="120" fill="#243142"></rect>
+                                
+                                <!-- Clouds -->
+                                <path d="M20,30 Q30,20 40,30 Q50,20 60,30 Q70,20 80,30 L80,40 Q70,50 60,40 Q50,50 40,40 Q30,50 20,40 Z" fill="#1a2634" opacity="0.7"></path>
+                                <path d="M120,50 Q130,40 140,50 Q150,40 160,50 Q170,40 180,50 L180,60 Q170,70 160,60 Q150,70 140,60 Q130,70 120,60 Z" fill="#1a2634" opacity="0.7"></path>
+                                
+                                <!-- Hot Air Balloon in Clouds -->
+                                <g transform="translate(100, 70) scale(0.4)">
+                                    <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#c41e3a"></ellipse>
+                                    <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#c41e3a" stroke="#ffffff" stroke-width="1"></path>
+                                    <path d="M-17,-40 L-17,0 M17,-40 L17,0" stroke="#ffffff" stroke-width="0.5" opacity="0.5"></path>
+                                    <rect x="-10" y="0" width="20" height="15" fill="#243142" stroke="#ffffff" stroke-width="0.5"></rect>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="gallery-item">
+                            <svg class="gallery-item-svg" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Dawn sky -->
+                                <defs>
+                                    <linearGradient id="dawnGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" stop-color="#243142"></stop>
+                                        <stop offset="100%" stop-color="#c41e3a" stop-opacity="0.3"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <rect width="200" height="120" fill="url(#dawnGradient)"></rect>
+                                
+                                <!-- Sun -->
+                                <circle cx="100" cy="30" r="15" fill="#c41e3a" opacity="0.8"></circle>
+                                
+                                <!-- Hot Air Balloon at Dawn -->
+                                <g transform="translate(100, 70) scale(0.3)">
+                                    <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#000000" opacity="0.7"></ellipse>
+                                    <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#000000" opacity="0.7"></path>
+                                    <path d="M-17,-40 L-17,0 M17,-40 L17,0" stroke="#000000" stroke-width="1" opacity="0.7"></path>
+                                    <rect x="-10" y="0" width="20" height="15" fill="#000000" opacity="0.7"></rect>
+                                </g>
+                                
+                                <!-- Mountains -->
+                                <path d="M0,120 L0,80 L50,60 L100,90 L150,70 L200,85 L200,120 Z" fill="#0f1924"></path>
+                            </svg>
+                        </div>
+                        <div class="gallery-item">
+                            <svg class="gallery-item-svg" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Dusk sky -->
+                                <defs>
+                                    <linearGradient id="duskGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" stop-color="#243142"></stop>
+                                        <stop offset="100%" stop-color="#8a2be2" stop-opacity="0.3"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <rect width="200" height="120" fill="url(#duskGradient)"></rect>
+                                
+                                <!-- Moon -->
+                                <circle cx="150" cy="30" r="15" fill="#ffffff" opacity="0.8"></circle>
+                                
+                                <!-- Hot Air Balloon at Dusk -->
+                                <g transform="translate(70, 60) scale(0.4)">
+                                    <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#c41e3a"></ellipse>
+                                    <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#c41e3a" stroke="#ffffff" stroke-width="1"></path>
+                                    <path d="M-17,-40 L-17,0 M17,-40 L17,0" stroke="#ffffff" stroke-width="0.5" opacity="0.5"></path>
+                                    <rect x="-10" y="0" width="20" height="15" fill="#243142" stroke="#ffffff" stroke-width="0.5"></rect>
+                                </g>
+                                
+                                <!-- Mountains -->
+                                <path d="M0,120 L0,80 L50,90 L100,70 L150,85 L200,65 L200,120 Z" fill="#0f1924"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- About Widget -->
+                <div class="widget about-widget">
+                    <div class="about-image-container">
+                        <svg class="about-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="50" fill="#1a2634"></circle>
+                            <circle cx="50" cy="40" r="15" fill="#c41e3a"></circle>
+                            <path d="M30,85 Q50,70 70,85" stroke="#c41e3a" stroke-width="2" fill="none"></path>
+                            <path d="M25,75 C35,60 65,60 75,75 L75,100 L25,100 Z" fill="#c41e3a"></path>
+                        </svg>
+                    </div>
+                    <h3>About the Author</h3>
+                    <p>Jane Gardener is a passionate vegetable enthusiast and hot air balloon photographer. She travels the world documenting unique vegetables and capturing stunning aerial views.</p>
+                    <a href="#" class="read-more">Learn More</a>
+                </div>
+                
+                <!-- Categories Widget -->
+                <div class="widget">
+                    <h3 class="widget-title">Categories</h3>
+                    <ul class="categories-list">
+                        <li><a href="#">Leafy Greens <span>12</span></a></li>
+                        <li><a href="#">Root Vegetables <span>9</span></a></li>
+                        <li><a href="#">Aerial Photography <span>15</span></a></li>
+                        <li><a href="#">Cooking Tips <span>7</span></a></li>
+                        <li><a href="#">Travel Stories <span>11</span></a></li>
+                        <li><a href="#">Gardening <span>8</span></a></li>
+                    </ul>
+                </div>
+                
+                <!-- Featured Image Widget -->
+                <div class="widget">
+                    <h3 class="widget-title">Featured Image</h3>
+                    <svg viewBox="0 0 400 300" style="width: 100%; border-radius: 8px;">
+                        <!-- Background -->
+                        <rect width="400" height="300" fill="#1a2634"></rect>
+                        
+                        <!-- Dramatic sky -->
+                        <defs>
+                            <linearGradient id="dramaticSkyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" stop-color="#0f1924"></stop>
+                                <stop offset="50%" stop-color="#243142"></stop>
+                                <stop offset="100%" stop-color="#c41e3a" stop-opacity="0.4"></stop>
+                            </linearGradient>
+                        </defs>
+                        <rect width="400" height="200" fill="url(#dramaticSkyGradient)"></rect>
+                        
+                        <!-- Clouds -->
+                        <path d="M50,100 Q70,80 90,100 Q110,80 130,100 L130,120 Q110,140 90,120 Q70,140 50,120 Z" fill="#1a2634" opacity="0.6"></path>
+                        <path d="M250,80 Q270,60 290,80 Q310,60 330,80 L330,100 Q310,120 290,100 Q270,120 250,100 Z" fill="#1a2634" opacity="0.6"></path>
+                        
+                        <!-- Hot Air Balloons -->
+                        <g transform="translate(150, 120)">
+                            <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#c41e3a"></ellipse>
+                            <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#c41e3a" stroke="#ffffff" stroke-width="1"></path>
+                            <path d="M-17,-40 L-17,0 M17,-40 L17,0" stroke="#ffffff" stroke-width="0.5" opacity="0.5"></path>
+                            <rect x="-10" y="0" width="20" height="15" fill="#243142" stroke="#ffffff" stroke-width="0.5"></rect>
+                        </g>
+                        
+                        <g transform="translate(250, 100) scale(0.7)">
+                            <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#8a2be2"></ellipse>
+                            <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#8a2be2" stroke="#ffffff" stroke-width="1"></path>
+                            <path d="M-17,-40 L-17,0 M17,-40 L17,0" stroke="#ffffff" stroke-width="0.5" opacity="0.5"></path>
+                            <rect x="-10" y="0" width="20" height="15" fill="#243142" stroke="#ffffff" stroke-width="0.5"></rect>
+                        </g>
+                        
+                        <g transform="translate(80, 150) scale(0.5)">
+                            <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#4169e1"></ellipse>
+                            <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#4169e1" stroke="#ffffff" stroke-width="1"></path>
+                            <path d="M-17,-40 L-17,0 M17,-40 L17,0" stroke="#ffffff" stroke-width="0.5" opacity="0.5"></path>
+                            <rect x="-10" y="0" width="20" height="15" fill="#243142" stroke="#ffffff" stroke-width="0.5"></rect>
+                        </g>
+                        
+                        <!-- Mountains -->
+                        <path d="M0,300 L0,200 L100,150 L200,220 L300,180 L400,210 L400,300 Z" fill="#0f1924"></path>
+                    </svg>
+                    <p style="margin-top: 1rem;">Capturing the magic of flight over the stunning landscapes of Cappadocia, Turkey.</p>
+                </div>
+            </aside>
+        </div>
+        
+        <!-- Featured Posts Section -->
+        <section class="featured-posts">
+            <h2 class="section-title">Featured Articles</h2>
+            <div class="posts-grid">
+                <!-- Featured Post 1 -->
+                <article class="post-card">
+                    <div class="card-image-container">
+                        <svg class="card-svg" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Background -->
+                            <rect width="400" height="300" fill="#1a2634"></rect>
+                            
+                            <!-- Morning sky -->
+                            <defs>
+                                <linearGradient id="morningGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#243142"></stop>
+                                    <stop offset="100%" stop-color="#c41e3a" stop-opacity="0.2"></stop>
+                                </linearGradient>
+                            </defs>
+                            <rect width="400" height="200" fill="url(#morningGradient)"></rect>
+                            
+                            <!-- Sun -->
+                            <circle cx="300" cy="50" r="30" fill="#c41e3a" opacity="0.8"></circle>
+                            
+                            <!-- Hot Air Balloon -->
+                            <g transform="translate(150, 100)">
+                                <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#c41e3a"></ellipse>
+                                <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#c41e3a" stroke="#ffffff" stroke-width="1"></path>
+                                <path d="M-17,-40 L-17,0 M17,-40 L17,0" stroke="#ffffff" stroke-width="0.5" opacity="0.5"></path>
+                                <rect x="-10" y="0" width="20" height="15" fill="#243142" stroke="#ffffff" stroke-width="0.5"></rect>
+                            </g>
+                            
+                            <!-- Mountains -->
+                            <path d="M0,300 L0,200 L100,150 L200,220 L300,180 L400,210 L400,300 Z" fill="#0f1924"></path>
+                        </svg>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">The Art of Ballooning</h3>
+                        <p class="card-excerpt">Discover the history and techniques behind hot air balloon flights and how they've evolved over centuries.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                
+                <!-- Featured Post 2 -->
+                <article class="post-card">
+                    <div class="card-image-container">
+                        <svg class="card-svg" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Background -->
+                            <rect width="400" height="300" fill="#1a2634"></rect>
+                            
+                            <!-- Garden background -->
+                            <rect width="400" height="200" fill="#243142"></rect>
+                            
+                            <!-- Vegetables -->
+                            <circle cx="100" cy="150" r="30" fill="#4a7c59"></circle>
+                            <path d="M100,120 L100,100" stroke="#4a7c59" stroke-width="3"></path>
+                            <path d="M90,130 Q100,120 110,130" stroke="#4a7c59" stroke-width="2" fill="none"></path>
+                            
+                            <ellipse cx="170" cy="160" rx="20" ry="15" fill="#c41e3a"></ellipse>
+                            <path d="M170,145 L170,130" stroke="#4a7c59" stroke-width="3"></path>
+                            
+                            <ellipse cx="230" cy="150" rx="25" ry="15" fill="#ffa500"></ellipse>
+                            <path d="M230,135 L230,115" stroke="#4a7c59" stroke-width="3"></path>
+                            
+                            <ellipse cx="300" cy="160" rx="15" ry="25" fill="#8a2be2"></ellipse>
+                            <path d="M300,135 L300,120" stroke="#4a7c59" stroke-width="3"></path>
+                            
+                            <!-- Garden rows -->
+                            <path d="M0,200 L400,200" stroke="#0f1924" stroke-width="2"></path>
+                            <path d="M0,180 L400,180" stroke="#0f1924" stroke-width="1" opacity="0.5"></path>
+                            <path d="M0,160 L400,160" stroke="#0f1924" stroke-width="1" opacity="0.5"></path>
+                            <path d="M0,140 L400,140" stroke="#0f1924" stroke-width="1" opacity="0.5"></path>
+                            <path d="M0,120 L400,120" stroke="#0f1924" stroke-width="1" opacity="0.5"></path>
+                            
+                            <!-- Ground -->
+                            <rect y="200" width="400" height="100" fill="#0f1924"></rect>
+                        </svg>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Growing Heirloom Vegetables</h3>
+                        <p class="card-excerpt">Learn about preserving biodiversity through growing traditional vegetable varieties in your own garden.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                
+                <!-- Featured Post 3 -->
+                <article class="post-card">
+                    <div class="card-image-container">
+                        <svg class="card-svg" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Background -->
+                            <rect width="400" height="300" fill="#1a2634"></rect>
+                            
+                            <!-- Aerial view -->
+                            <rect width="400" height="200" fill="#243142"></rect>
+                            
+                            <!-- Camera viewfinder overlay -->
+                            <circle cx="200" cy="150" r="100" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.5"></circle>
+                            <path d="M200,50 L200,70 M200,230 L200,250 M100,150 L120,150 M280,150 L300,150" stroke="#ffffff" stroke-width="1" opacity="0.5"></path>
+                            <circle cx="200" cy="150" r="30" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.5"></circle>
+                            
+                            <!-- Landscape from above -->
+                            <path d="M120,180 L150,170 L180,190 L210,160 L240,180 L270,150 L300,170" stroke="#c41e3a" stroke-width="2" fill="none"></path>
+                            <circle cx="150" cy="170" r="5" fill="#c41e3a"></circle>
+                            <circle cx="210" cy="160" r="5" fill="#c41e3a"></circle>
+                            <circle cx="270" cy="150" r="5" fill="#c41e3a"></circle>
+                            
+                            <!-- Hot air balloon basket edge -->
+                            <path d="M0,300 L400,300 L400,250 C350,270 250,280 150,270 C100,265 50,255 0,240 Z" fill="#0f1924"></path>
+                        </svg>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Aerial Photography Tips</h3>
+                        <p class="card-excerpt">Master the art of taking stunning photographs from the basket of a hot air balloon with these expert tips.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        
+        <!-- Newsletter Section -->
+        <section class="newsletter">
+            <svg class="newsletter-bg" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+                <!-- Hot Air Balloon Pattern -->
+                <g transform="translate(100, 100) scale(0.3)">
+                    <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#c41e3a"></ellipse>
+                    <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#c41e3a" stroke="#ffffff" stroke-width="1"></path>
+                    <rect x="-10" y="0" width="20" height="15" fill="#243142"></rect>
+                </g>
+                
+                <g transform="translate(300, 200) scale(0.3)">
+                    <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#8a2be2"></ellipse>
+                    <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#8a2be2" stroke="#ffffff" stroke-width="1"></path>
+                    <rect x="-10" y="0" width="20" height="15" fill="#243142"></rect>
+                </g>
+                
+                <g transform="translate(500, 150) scale(0.3)">
+                    <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#4169e1"></ellipse>
+                    <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#4169e1" stroke="#ffffff" stroke-width="1"></path>
+                    <rect x="-10" y="0" width="20" height="15" fill="#243142"></rect>
+                </g>
+                
+                <g transform="translate(700, 250) scale(0.3)">
+                    <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#c41e3a"></ellipse>
+                    <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#c41e3a" stroke="#ffffff" stroke-width="1"></path>
+                    <rect x="-10" y="0" width="20" height="15" fill="#243142"></rect>
+                </g>
+                
+                <g transform="translate(200, 300) scale(0.3)">
+                    <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#8a2be2"></ellipse>
+                    <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#8a2be2" stroke="#ffffff" stroke-width="1"></path>
+                    <rect x="-10" y="0" width="20" height="15" fill="#243142"></rect>
+                </g>
+                
+                <g transform="translate(600, 50) scale(0.3)">
+                    <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#4169e1"></ellipse>
+                    <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#4169e1" stroke="#ffffff" stroke-width="1"></path>
+                    <rect x="-10" y="0" width="20" height="15" fill="#243142"></rect>
+                </g>
+            </svg>
+            <div class="newsletter-content">
+                <h2 class="newsletter-title">Join Our Newsletter</h2>
+                <p>Subscribe to receive updates on our latest articles, photography tips, and exclusive content.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" class="newsletter-input" required="">
+                    <button type="submit" class="newsletter-btn">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        
+        <!-- Code Snippet Section -->
+        <section class="code-snippet-section">
+            <div class="code-snippet-container">
+                <h2 class="code-snippet-title">Source Code</h2>
+                <div class="code-tabs">
+                    <button class="code-tab active" data-tab="html">HTML</button>
+                    <button class="code-tab" data-tab="css">CSS</button>
+                    <button class="code-tab" data-tab="js">JavaScript</button>
+                </div>
+                
+                <div id="html-code" class="code-content active">
+                    <button class="copy-btn" onclick="copyCode('html-code')">
+                        <svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                        </svg>
+                        Copy HTML
+                    </button>
+                    <pre id="html-content"></pre>
+                </div>
+                
+                <div id="css-code" class="code-content">
+                    <button class="copy-btn" onclick="copyCode('css-code')">
+                        <svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                        </svg>
+                        Copy CSS
+                    </button>
+                    <pre id="css-content"></pre>
+                </div>
+                
+                <div id="js-code" class="code-content">
+                    <button class="copy-btn" onclick="copyCode('js-code')">
+                        <svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                        </svg>
+                        Copy JavaScript
+                    </button>
+                    <pre id="js-content"></pre>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <svg class="footer-bg" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+            <g transform="translate(150, 150) scale(0.8)">
+                <ellipse cx="0" cy="-40" rx="35" ry="50" fill="#c41e3a" opacity="0.2"></ellipse>
+                <path d="M-35,-40 Q-35,-90 0,-90 Q35,-90 35,-40" fill="#c41e3a" stroke="#ffffff" stroke-width="1" opacity="0.2"></path>
+                <path d="M-17,-40 L-17,0 M17,-40 L17,0" stroke="#ffffff" stroke-width="0.5" opacity="0.1"></path>
+                <rect x="-10" y="0" width="20" height="15" fill="#243142" stroke="#ffffff" stroke-width="0.5" opacity="0.2"></rect>
+            </g>
+        </svg>
+        <div class="container">
+            <div class="footer-content">
+                <!-- About Column -->
+                <div class="footer-column">
+                    <h3>About Vegetable Adventures</h3>
+                    <p>A unique blog combining the love for vegetables and hot air ballooning. We explore the world from above while discovering the best produce from below.</p>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Our history</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li>📧 hello@vegetableadventures.com</li>
+                        <li>📱 +1 (555) 123-4567</li>
+                        <li>📍 123 Garden Street, Skyview, CA 90210</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2023 Vegetable Adventures. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript removed for clarity -->
+<!-- JavaScript removed for clarity --><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe>
+
+</body></html>
